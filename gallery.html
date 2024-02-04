@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gallery of bakery</title>
+    <link rel="shortcut icon" type="image" href="./image/logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Uchen&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section class="all-content">
+    <nav class="navbar navbar-expand-md" id="navbar" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
+      <!-- Brand -->
+      <a class="navbar-brand" href="#" id="logo"><img src="./image/logo.png" alt="" width="50px"/>  Cake Bakery</a>
+
+      <!-- Toggler/collapsibe Button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class=><img src="./image/menu.png" alt="" width="30px"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <!-- dropdown -->
+          <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+                  Category
+              </a>
+              <div class="dropdown-menu">
+                  <a href="#" class="dropdown-item">Birthday-cake</a>
+                  <a href="#" class="dropdown-item">chocolate-cake</a>
+                  <a href="#" class="dropdown-item">party-cake</a>
+                  <a href="#" class="dropdown-item">slice-cake</a>
+                  <a href="#" class="dropdown-item">cup-cake</a>
+              </div>
+          </li>
+          <!-- dropdown -->
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li><li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+      </div>
+      <div class="icons">
+          <img src="./image/user.png" alt="" width="20px" />
+          <img src="./image/heart.png" alt="" width="20px"/>
+          <img src="./image/add.png" alt="" width="20px" class="me-2"/>
+      </div>
+    </nav>
+
+
+
+    <!-- home section -->
+    <section class="home" data-aos="zoom-out-right">
+        <div class="content">
+        <h3>Delicious<br>Cakes Bakery</h3>
+        <h2>Category <span class="changecontent"></span></h2>
+        <p>Lorem ipsum dolor sit  amet consectetur<br>Lorem ipsum dolor sit </p>
+        <a href="#" class="btn">Order Now</a>
+        </div>
+        <div class="img" data-aos="zoom-out-left">
+            <img src="./image/background.png" alt=""/>
+        </div>
+    </section>
+    <!-- home section end -->
+
+    <section id="gallery" data-aos="fade-up"
+    data-aos-duration="1500">
+        <div class="container">
+        <h1>OUR GALLARY</h1>
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <div class="overlay">
+                        <h3 class="text-center">Donuts</h3>
+                    </div>
+                    <img src="./image/o1.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <div class="overlay">
+                        <h3 class="text-center">Ice Cream</h3>
+                    </div>
+                    <img src="./image/o2.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <div class="overlay">
+                        <h3 class="text-center">Cup cake</h3>
+                    </div>
+                    <img src="./image/o3.png" alt="">
+                </div>
+            </div>
+        </div>
+        
+        <div class="row" style="margin-top: 30px;" data-aos="fade-up"
+            data-aos-duration="3000">
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <div class="overlay">
+                        <h3 class="text-center">Delicious cake</h3>
+                    </div>
+                    <img src="./image/o4.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <div class="overlay">
+                        <h3 class="text-center">Chocolate cake</h3>
+                    </div>
+                    <img src="./image/o5.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <div class="overlay">
+                        <h3 class="text-center">Slice cake</h3>
+                    </div>
+                    <img src="./image/o6.png" alt="">
+                </div>
+            </div>
+        </div>   
+        </div>
+
+        <footer id="footer" data-aos="fade-up"
+        data-aos-duration="3000">
+            <h1 class="text-center">Cake Bakery</h1>
+            <p class="text-center">Lorem ipsum dolor sit amet corrupti id non soluta aliquam, tempora esse, repellendus nemo.</p>
+            <div class="icons text-center">
+                <i class="bx bxl-twitter"></i>
+                <i class="bx bxl-facebook"></i>
+                <i class="bx bxl-google"></i>
+                <i class="bx bxl-skype"></i>
+                <i class="bx bxl-instagram"></i>
+            </div>
+            <div class="copyright text-center">&copy;Copyright<strong>Cake Bakery</strong> .All Rights Reserved</div>
+            <div class="credit text-center">Designed By <a href="#"><span>Geeta Mishra</span></a></div>
+        </footer>
+
+    <a href="#" class="arrow"><i><img src="./image/up-arrow.png" alt="" width="50px"></i></a>
+      
+    </section>
+
+
+</section>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+    AOS.init();
+  </script>
+  </body>
+</html>
